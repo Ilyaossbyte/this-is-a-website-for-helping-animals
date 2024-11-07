@@ -1,0 +1,294 @@
+*{
+    padding: o;
+    margin: 0;    
+    }
+
+.html{
+        box-sizing: border-box;
+    }
+
+.nav{
+        display: flex;
+        flex-wrap:wrap;
+        min-height: 70px;
+        margin-left: 300px;
+    }
+
+    .logo{
+        display: block;
+        margin-top: 8px;
+        
+
+    }
+
+.ul_header{
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+.RAB{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.Buttonn{
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    background-image:linear-gradient(180deg,#EDA418 49%,rgba(237,164,24,0) 100%);
+}
+   
+.shapka{
+    background-image:url(Images/hh.png) ;                                                      
+    color: rgb(224, 168, 168) ;
+    height: 90vh;   
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+    z-index: 1;        
+}
+.shapka::before{
+    border-radius: 15px 15px;
+}
+  
+.priroda{
+    font-size: 120px;
+}
+
+.shit{
+    width: 378px;
+    height: 70px;
+    top: 272px;
+    left: 1002px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 900px;
+    font-weight: bold;
+}
+
+.kno{
+    width: 130px;
+    height: 130px;
+    gap: 0px;
+    border:  1px solid;
+    opacity: 0px;
+    border-radius: 160px;
+    color: #EDA418;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 565px;
+    margin-top: 190px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);   
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    
+}
+
+.kno:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: black; 
+    transform: scale(1.1)
+
+    }
+
+.img{
+    display: flex; 
+    align-items: flex-start; 
+}
+.ii{       
+    margin-right: 100px; 
+}
+.mm{
+    margin-bottom: 20px;
+    font-family: FreeMono, monospace;
+    
+}   
+.pp{
+    margin-bottom: 20px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+
+.mein{
+   max-width: 1000px;
+    min-height: 900px;
+   
+}
+.sec{
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: 250px;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content:  space-between;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.image-list {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    list-style: none;
+}
+
+.image-item {
+    margin-bottom: 10px; 
+}
+
+.offset {
+    margin-top: 20px; 
+    margin-left: 20px; 
+}
+
+.text-section {
+    max-width: 600px; 
+    margin-left: 20px; 
+}
+
+.text-section h1 {
+    font-size: 24px; 
+}
+
+.text-section p {
+    margin: 10px 0; 
+    line-height: 1.5; /
+}
+
+.text-list {
+    list-style-type: none; 
+    padding: 0; 
+    font-size: 20px;
+}
+
+.text-list li {
+    margin-bottom: 10px;  
+}
+
+.image-item_offset{
+    margin-left: 200px;
+}
+.pp{
+    font-size: 60px;
+}
+
+.div_footer{
+    background-image: url(Images/pp.png); 
+    height: 90vh;  
+    background-repeat: no-repeat; 
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: bisque;
+    border-radius: 25px; 
+    overflow: hidden; 
+    }
+.footer h1{
+    margin: 0; 
+    font-size: 24px; 
+    color: bisque;
+}
+
+.footer p {
+    margin:  0; 
+    width: 891px;
+    height: 92px;
+    top: 2884px;
+    left: 275px;
+    gap: 0px;
+    opacity: 0px;
+    display: table;
+    word-wrap: break-word;
+    color: beige;
+
+}
+ .b{   
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-top: 15px; 
+    color: blanchedalmond;    
+    background-color: #bf632b; 
+    transition: transform 0.3s ease, background-color 0.3s ease;  
+    border-color: #bf632b; 
+    border-radius: 25px;
+}
+
+.b:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: black; 
+    animation: fade-in 1s ease-in-out;  
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0; 
+        transform: scale(0.9); 
+    }
+    100% {
+        opacity: 1; 
+        transform: scale(1); 
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        margin-left: 50px; /* Уменьшение отступа на больших экранах */
+    }
+
+    .container {
+        flex-direction: column; /* Переход на вертикальную раскладку */
+    }
+
+    .kno {
+        margin-left: auto; /* Центрируем элементы на широком экране */
+        margin-right: auto;
+    }
+
+    .sec {
+        margin-left: 0; /* Убираем отступ на маленьких экранах */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; 
+        margin-left: 0; 
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .shapka {
+        height: auto; 
+    }
+
+    .div_footer {
+        height: auto; 
+    }
+
+    .mm, .pp {
+        font-size: 24px; 
+    }
+
+    .b {
+        padding: 8px 16px; 
+    }
+}
